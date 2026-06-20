@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Pranav Krishna Kandi</title>
+<meta name="description" content="Case studies for Crescendo and Magic Todo — full-stack apps built with Django REST Framework, React.js, and the Gemini API.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap nav__row">
+    <a href="index.html" class="nav__brand"><span class="nav__brand-mark"></span>Pranav Krishna</a>
+    <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <div class="nav__links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" class="is-active">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section style="padding-top:150px;">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <span class="eyebrow">Projects</span>
+      <h1 class="section__title">Built, deployed, and actually working</h1>
+      <p class="section__sub">Both projects ship with real authentication, decoupled client-server architecture, and AI integrations that handle failure gracefully — not just the happy path.</p>
+    </div>
+
+    <div class="proj-grid">
+      <article class="proj-card reveal">
+        <div class="proj-card__top">
+          <h3 class="proj-card__name">Crescendo</h3>
+          <a href="https://crescendo-pf8l.vercel.app" target="_blank" rel="noopener" class="proj-card__link">Live demo ↗</a>
+        </div>
+        <p class="proj-card__desc">A gamified RPG productivity platform. Failure has real cost here: streak breaks trigger rank-scaled "Aura" deductions, and a RankUp Ritual system opens a timed task window with a 7-day lockout if you miss it.</p>
+        <div class="proj-card__tags">
+          <span class="tag">Django 5.2</span><span class="tag">DRF</span><span class="tag">React (Vite)</span><span class="tag">Vanilla CSS</span><span class="tag">Gemini API</span><span class="tag">SQLite</span>
+        </div>
+        <ul class="proj-card__bullets">
+          <li>Decoupled DRF + React architecture with JWT auth, custom user models, and email verification — full session security across a separated client-server setup.</li>
+          <li>Rank-gated penalty engine: streak failures cost rank-scaled Aura; the RankUp Ritual enforces deadlines and lockouts entirely through backend business logic.</li>
+          <li>Archetype theming system (Grimward / Ashborne / Goldveil) — rewrites the UI's glassmorphism palette, neon accents, and animations globally based on user selection, persisted server-side.</li>
+          <li>Gemini API integration for AI-powered quest generation, auto-producing subtask checklists from a quest title, plus a Grand Roadmap system with deadline oaths and GP rewards.</li>
+        </ul>
+      </article>
+
+      <article class="proj-card reveal">
+        <div class="proj-card__top">
+          <h3 class="proj-card__name">Magic Todo</h3>
+          <a href="https://magic-todo-mrvz.vercel.app" target="_blank" rel="noopener" class="proj-card__link">Live demo ↗</a>
+        </div>
+        <p class="proj-card__desc">An AI-powered task architect that breaks goals into actionable steps. Built to stay reliable even when the AI provider isn't — rate limits and outages are handled, not ignored.</p>
+        <div class="proj-card__tags">
+          <span class="tag">DRF</span><span class="tag">React.js</span><span class="tag">Tailwind CSS</span><span class="tag">Axios</span><span class="tag">Gemini API</span><span class="tag">PostgreSQL</span>
+        </div>
+        <ul class="proj-card__bullets">
+          <li>Full-stack task manager with JWT-based authentication, a DRF API backend, and a React (Vite) frontend following a clean client-server split.</li>
+          <li>Gemini 2.0 Flash-Lite integration for AI task deconstruction, with a retry mechanism using exponential backoff to handle HTTP 429 rate limits and 503 outages.</li>
+          <li>REST API with full CRUD via DRF serializers and class-based views, CORS configured for cross-origin calls between the Vercel frontend and Render backend.</li>
+          <li>Real-time prioritization and categorization on the frontend — state updates reflect instantly with no full-page reloads.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="reveal" style="margin-top:60px; border:1px solid var(--line); border-radius: var(--radius); padding: 36px; text-align:center;">
+      <p class="section__sub" style="margin:0;">More on the way — check GitHub for everything that isn't write-up-ready yet.</p>
+      <div style="margin-top:20px;">
+        <a href="https://github.com/PranavKrish07" target="_blank" rel="noopener" class="btn btn--ghost">View GitHub <span class="btn__arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap footer__row">
+    <span class="footer__note">© 2026 Pranav Krishna Kandi — Built with HTML, CSS &amp; JS.</span>
+    <div class="footer__links">
+      <a href="https://github.com/PranavKrish07" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/pranavkrish07" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:pranavkrishna404@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
