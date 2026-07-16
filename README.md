@@ -1,26 +1,16 @@
-# Hi, I'm Pranav Krishna 👋
+# React + Vite
 
-**Full-Stack Engineer | Django & React Specialist** I build scalable web applications and high-efficiency MVPs. Focused on clean code, robust backends, and seamless user experiences.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
----
+Currently, two official plugins are available:
 
-### 💻 Technical Arsenal
-- **Frontend:** React.js, Tailwind CSS, JavaScript (ES6+)
-- **Backend:** Django, Django Rest Framework (DRF), Python
-- **Database & DevOps:** PostgreSQL, SQLite, Git, Railway, Vercel
-- **Research:** Interested in Productivity gamification.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### 🚀 Featured Projects
-- **Crescendo:** [repo](https://github.com/PranavKrish07/Crescendo) 
-- **Magic-Todo** [repo](https://github.com/PranavKrish07/Magic-Todo)
+## React Compiler
 
-### 📊 GitHub Stats
-![Pranav's GitHub stats](https://github-readme-stats.vercel.app/api?username=PranavKrish07&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PranavKrish07&layout=compact&theme=radical)
-[![GitHub Streak](https://streak-stats.demolab.com/?user=PranavKrish07)](https://git.io/streak-stats)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the Oxlint configuration
 
-### 📫 Let's Connect
-- **LinkedIn:** [https://www.linkedin.com/in/pranavkrish07/]
-- **Email:** [pranavkrishna404@gmail.com]
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
