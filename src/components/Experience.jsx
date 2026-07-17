@@ -13,8 +13,8 @@ export default function Experience() {
         'Implemented a per-user theming system persisted across sessions, structured to apply consistently across the full component tree.',
         'Integrated the Gemini API to auto-generate step-by-step subtask checklists from a single quest title, reducing manual task breakdown.'
       ],
-      demo: '#',
-      github: '#'
+      demo: 'https://crescendo-pf8l.vercel.app/',
+      github: 'https://github.com/PranavKrish07/Crescendo'
     },
     {
       title: 'Magic Todo — AI-Assisted Task Manager',
@@ -25,8 +25,8 @@ export default function Experience() {
         'Structured full CRUD task management through DRF serializers and class-based views, and configured CORS between a Vercel frontend and Render backend for resilient cross-origin requests.',
         'Implemented real-time task prioritization and categorization using React state, avoiding full-page reloads and keeping the UI responsive.'
       ],
-      demo: '#',
-      github: '#'
+      demo: 'https://magic-todo-mrvz.vercel.app/',
+      github: 'https://github.com/PranavKrish07/Magic-Todo'
     }
   ];
 
